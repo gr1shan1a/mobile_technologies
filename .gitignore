@@ -1,0 +1,22 @@
+# Qt Creator local configuration
+*.pro.user
+*.pro.user.*
+
+# Build and packaging outputs
+build/
+.dist/
+rpm/BUILD/
+rpm/BUILDROOT/
+rpm/RPMS/
+rpm/SRPMS/
+rpm/SOURCES/
+rpm/SPECS/
+*.rpm
+*.qm
+*.tar.bz2
+
+# Generated report PDF; keep Typst source and images
+/report-lab1.pdf
+
+# macOS metadata
+.DS_Store

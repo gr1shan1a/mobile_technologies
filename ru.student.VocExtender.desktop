@@ -1,0 +1,13 @@
+[Desktop Entry]
+Type=Application
+X-Nemo-Application-Type=silica-qt5
+Icon=ru.student.VocExtender
+Exec=/usr/bin/ru.student.VocExtender
+Name=VocExtender
+Name[ru]=VocExtender
+
+[X-Application]
+Permissions=PushNotifications;Audio;Documents;Downloads;Internet;Microphone;Music;Pictures;PublicDir
+OrganizationName=ru.student
+ApplicationName=VocExtender
+ExecDBus=/usr/bin/ru.student.VocExtender
