@@ -17,6 +17,8 @@ rpm/SPECS/
 
 # Generated report PDF; keep Typst source and images
 /report-lab1.pdf
+/report-lab2.pdf
+/report-lab3.pdf
 
 # macOS metadata
 .DS_Store

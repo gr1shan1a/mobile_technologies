@@ -27,6 +27,10 @@ Page {
         flick.contentY = 0
     }
 
+    function recognitionRate() {
+        return count > 0 ? Math.round(remembered * 100 / count) : 0
+    }
+
     function answer(known) {
         if (!revealed || finished)
             return
@@ -245,7 +249,7 @@ Page {
                 Label {
                     x: Theme.horizontalPageMargin
                     width: parent.width - 2 * x
-                    text: "Вы прошли " + page.remembered + " из " + page.count + " карточек.\nОтправлено на повторение: " + page.repeats + "."
+                    text: "Вы прошли " + page.remembered + " из " + page.count + " карточек.\nОтмечено знакомыми: " + page.recognitionRate() + "%.\nОтправлено на повторение: " + page.repeats + "."
                     font.pixelSize: Theme.fontSizeLarge
                     wrapMode: Text.WordWrap
                     horizontalAlignment: Text.AlignHCenter
