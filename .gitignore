@@ -22,3 +22,6 @@ rpm/SPECS/
 
 # macOS metadata
 .DS_Store
+
+# Local nested clone of the report template; tracked snapshot is in docs/typst-template
+/report-template/
